@@ -11,6 +11,7 @@
 * [📊 Dashboard KPIs](#-dashboard-kpis)
 * [🎯 Project Objective](#-project-objective)
 * [📚 Analysis & Excel Practice](#-analysis--excel-practice)
+* [📊 Dashboard Preview](#-dashboard-preview)
 * [🔍 Key Insights](#-key-insights)
 * [🛠️ Tools & Techniques](#️-tools--techniques)
 * [🚀 Future Improvements](#-future-improvements)
@@ -154,6 +155,13 @@ The dashboard is designed with a **clean and simple layout** for easy interpreta
 
 * Added a timestamp using Excel's `NOW()` function.
 * The timestamp provides the current date and time when the workbook is recalculated.
+
+---
+
+## 📊 Dashboard Preview
+
+[ View Dashboard](Images/Dashboard_Image.png)
+
 
 ---
 
