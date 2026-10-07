@@ -7,6 +7,7 @@
 ## 📋 Table of Contents
 
 * [📌 Project Overview](#-project-overview)
+* [🧹 Data Cleaning & Preparation](#-data-cleaning--preparation)
 * [✨ Key Features](#-key-features)
 * [📊 Dashboard KPIs](#-dashboard-kpis)
 * [🎯 Project Objective](#-project-objective)
@@ -26,6 +27,16 @@ This project uses **Microsoft Excel** to analyze customer purchases, sales, prof
 The workbook combines **Excel formulas, conditional formatting, What-If Analysis, Analysis ToolPak, PivotTables, and charts** to transform sales data into meaningful business insights.
 
 An interactive dashboard is created to provide a clear overview of key sales and profit performance.
+
+---
+
+## 🧹 Data Cleaning & Preparation
+
+Before performing the analysis and creating the dashboard, the dataset was reviewed for data quality issues.
+
+* Identified inconsistent `Customer_ID` and `Customer_Name` mappings where the same `Customer_ID` was associated with different customer names.
+* Removed conflicting customer records to maintain a consistent `Customer_ID`–`Customer_Name` relationship.
+* Verified the cleaned dataset before performing customer, sales, profit, and dashboard analysis.
 
 ---
 
@@ -167,7 +178,7 @@ The dashboard is designed with a **clean and simple layout** for easy interpreta
 
 ## 🔍 Key Insights
 
-* The dataset contains **30 customer records**.
+* The cleaned dataset contains **30 customer records**.
 * Total sales are **224,867.22**, while total profit is **9,441.23**.
 * The average sales value is **7,495.57** per record.
 * The average profit is **314.71** per record.
